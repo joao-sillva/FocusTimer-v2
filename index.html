@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
+    <link rel="stylesheet" href="style.css">
+    <title>FocusTimer - v2</title>
+  </head>
+  <body>
+    <main>    
+      <button class="toggle-mode">
+        <span class="sr-only">Ativar light mode</span>
+        <i class="ph-bold ph-sun"></i>
+        <i class="ph-bold ph-moon"></i>
+      </button>
+      
+      <div class="timer">         
+        <section class="time">
+          <span class="minutes">00</span>
+          <span>:</span>
+          <span class="seconds">00</span>
+        </section>
+
+        <section class="buttons">
+          <button
+            data-action="play"
+            class="ph-bold ph-play-circle">
+            <span class="sr-only">Iniciar</span>    
+          </button>
+          
+          <button 
+            data-action="pause"
+            class="ph-bold ph-pause-circle">          
+            <span class="sr-only">Pausar</span>   
+          </button>
+
+          <button 
+            data-action="toggleRunning"
+            class="ph-bold ph-stop-circle">
+            <span class="sr-only">Parar</span>    
+          </button>
+
+          <button 
+            data-action="plus"
+            class="ph-bold ph-plus">
+            <span class="sr-only">Aumentar</span> 
+          </button>
+          
+          <button 
+            data-action="minus"
+            class="ph ph-minus">
+            <span class="sr-only">Diminuir</span>    
+          </button>
+        </section>   
+      </div>
+      
+      <section class="sounds">
+        <button 
+          data-action="toggleMusic"
+          class="ph ph-tree card">
+          <span class="sr-only">Árvore</span>
+        </button>
+        
+        <button
+          data-action="toggleMusic"
+          class="ph ph-cloud-rain card">
+          <span class="sr-only">Chuva</span>
+        </button>
+        
+        <button 
+          data-action="toggleMusic"
+          class="ph ph-flame card">
+          <span class="sr-only">Fogo</span>
+        </button>
+
+        <button 
+          data-action="toggleMusic"
+          class="ph-bold ph-storefront card">
+          <span class="sr-only">Loja</span>
+        </button>
+      </section>
+    </main>
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="./src/main.js" defer type="module"></script>
+  </body>
+</html>
