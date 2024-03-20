@@ -56,7 +56,7 @@ Funcionalidades esperadas dos botões:
 Aqui está uma prévia do resultado final do desafio desenvolvido
 [Link Demonstração](https://joao-sillva.github.io/FocusTimer-v2/)
 
-![FocusTimer](./github/demo.gif)
+![FocusTimer](.github/demo.gif)
 
 
 ## Contato
